@@ -1,12 +1,9 @@
-const base = document.getElementById('icurrency').value
-const input = document.querySelector('#currencies')
+document.addEventListener('DOMContentLoaded', function () {
 
-
-function fetchCurrencies() {
-    input.addEventListener('submit', function (event) {
+    document.querySelector('#currencies').addEventListener('submit', function (event) {
         event.preventDefault()
 
-
+        const base = document.getElementById('icurrency').value;
         fetch(`https://api.exchangerate.host/latest?/source=ecb&base=${base}`)
             .then(response => response.json())
             .then(data => {
@@ -22,11 +19,4 @@ function fetchCurrencies() {
             })
             .catch(error => console.log(error))
     });
-}
-
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    fetchCurrencies();
 });

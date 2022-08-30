@@ -1,9 +1,15 @@
 body {
-    background-image: url("/home/moringa/Development/code/phase1/currency-converter/eduardo-soares-7I5A7630GpY-unsplash.jpg");
+    background-image: url("./annie-spratt-tuJ3tXSayco-unsplash.jpg");
     margin: 0;
     padding: 0;
     background-color: blueviolet;
     
+}
+
+header{
+    height: 50vh;
+    width: 80vh;
+    left: 500px;
 }
 
 
@@ -12,12 +18,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    width: 50vh;
+    width: 100vh;
     top: 100px;
     left: 500px;
-    background-color: blue;
-    margin: 0px;
+    background-color: transparent;
     position: absolute;
+    font-size: 2rem;
 }
 
 
@@ -28,8 +34,8 @@ body {
 }
 
 .btn {
-    margin-top: 0px;
-    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .btn:hover{
@@ -38,4 +44,5 @@ body {
 
 .result{
     text-align: center;
+    margin: 20px 0;
 }
