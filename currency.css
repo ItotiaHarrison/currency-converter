@@ -1,0 +1,41 @@
+body {
+    background-image: url("/home/moringa/Development/code/phase1/currency-converter/eduardo-soares-7I5A7630GpY-unsplash.jpg");
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    
+}
+
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vh;
+    top: 100px;
+    left: 500px;
+    background-color: blue;
+    margin: 0px;
+    position: absolute;
+}
+
+
+.from-to{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.btn {
+    margin-top: 0px;
+    align-items: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.result{
+    text-align: center;
+}
