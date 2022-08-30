@@ -24,13 +24,18 @@ header{
     background-color: transparent;
     position: absolute;
     font-size: 2rem;
+    padding: 0px;
 }
 
+.amount{
+    justify-content: center;
+    display: flex;
+}
 
 .from-to{
     display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
+    justify-content: space-around;
+    margin: 50px ;
 }
 
 .btn {
@@ -38,7 +43,7 @@ header{
     display: flex;
 }
 
-.btn:hover{
+button:hover{
     cursor: pointer;
 }
 
