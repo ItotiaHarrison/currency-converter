@@ -1,7 +1,7 @@
-##Currency-converter
+#Currency-converter
 ### By Harrison Itotia
 
-##Description
+#Description
 This is a currency converter that converts a base currency to a counter currency using the updated exchange rates.
 
 #Languages
