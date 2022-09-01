@@ -2,7 +2,6 @@ body {
     background-image: url("./images/annie-spratt-tuJ3tXSayco-unsplash.jpg");
     margin: 0;
     padding: 0;
-    background-color: blueviolet;
 
 }
 
@@ -64,7 +63,7 @@ button{
 }
 button:hover {
     cursor: pointer;
-    background: purple;
+    background: blue;
 }
 
 .result {
