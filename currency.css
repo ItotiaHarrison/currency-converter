@@ -33,7 +33,6 @@ header {
 
 .from-to {
     display: flex;
-    justify-content: space-around;
     margin: 50px;
 }
 
@@ -53,9 +52,9 @@ button:hover {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1020px) {
-    #form {
-        width: 60%;
-        margin: auto;
+@media (max-width: 500px) {
+    body{
+        background-color: blue;
     }
+   
 }
