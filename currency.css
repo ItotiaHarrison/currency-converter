@@ -14,16 +14,14 @@ header {
 
 
 #form {
-    /* display: flex; */
     align-items: center;
     height: 50vh;
     width: 100vh;
     top: 200px;
     left: 400px;
-    background-color: whitesmoke;
+    background-color: whitesmoke ;
     position: absolute;
     font-size: 2rem;
-    padding: 0px;
 }
 
 .amount {
@@ -38,13 +36,35 @@ header {
     margin: 20px 50px;
 }
 
+input{
+    width: 20%;
+    color: blue;
+    padding: 10px 10px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+select{
+    width: 80%;
+    color: blue;
+    padding: 5px 5px;
+    font-size: 30px;
+}
+
 .btn {
     justify-content: center;
     display: flex;
+    margin: 50px 0px;
 }
 
+button{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
 button:hover {
     cursor: pointer;
+    background: purple;
 }
 
 .result {
