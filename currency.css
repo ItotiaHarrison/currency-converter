@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: blueviolet;
-    
+
 }
 
-header{
+header {
     height: 50vh;
     width: 80vh;
     left: 500px;
@@ -15,27 +15,26 @@ header{
 
 #form {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 50vh;
     width: 100vh;
     top: 200px;
     left: 400px;
-    background-color: whitesmoke ;
+    background-color: whitesmoke;
     position: absolute;
     font-size: 2rem;
     padding: 0px;
 }
 
-.amount{
+.amount {
     justify-content: center;
     display: flex;
 }
 
-.from-to{
+.from-to {
     display: flex;
     justify-content: space-around;
-    margin: 50px ;
+    margin: 50px;
 }
 
 .btn {
@@ -43,20 +42,20 @@ header{
     display: flex;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
-.result{
+.result {
     text-align: center;
     margin: 20px 0;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1020px){
-#form{
-    width: 60%;
-    margin: auto;
-}
+@media screen and (max-width: 1020px) {
+    #form {
+        width: 60%;
+        margin: auto;
+    }
 }
