@@ -24,7 +24,7 @@ header{
     background-color: whitesmoke ;
     position: absolute;
     font-size: 2rem;
-    
+    padding: 0px;
 }
 
 .amount{
@@ -50,4 +50,13 @@ button:hover{
 .result{
     text-align: center;
     margin: 20px 0;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1020px){
+#form{
+    width: 60%;
+    margin: auto;
+}
 }
