@@ -11,3 +11,6 @@ This is a currency converter that converts a base currency to a counter currency
 
 #Authors info
 Email- harrison.itotia@moringaschool.com
+
+#Link to github
+`https://itotiaharrison.github.io/currency-converter/`
